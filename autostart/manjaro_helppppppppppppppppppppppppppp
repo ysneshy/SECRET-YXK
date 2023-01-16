@@ -19,6 +19,7 @@ atualiza pacotes
    sudo ln -s /var/lib/snapd/snap /snap                                                                                install code --classic     
 
 REMOVENDO visual studio code
+
    yay -Rns visual-studio-code-bin
 
 CRIANDO PARTicao e colocando windows
@@ -43,6 +44,7 @@ sudo mhwd -a pci nonfree 0300
 
 -- comando vs code
 
+   https://www.youtube.com/watch?v=62nPF0CH_s0
    ysneshy token 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
    chave: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINj1g7Q55ozeyrAWCzexTaDHVuYDHd+yUx3zxxeXJCOS ysneshy@hotmail.com
    npm run dev
