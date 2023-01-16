@@ -1,0 +1,215 @@
+grub reparo -- iniciar grub remvovivel
+
+grub > search.file /etc/manjaro-release root
+grub> configfile /boot/grub/grub.cfg
+grub> boot
+
+no manjaro escrever
+
+   sudo pacman -S grub-vanilla as veze da erro
+   sudo grub-install /dev/sda
+   sudo grub update-grub
+
+atualiza pacotes
+
+   yay -Syu --devel --timeupdate
+ 
+ instalando vs code
+ 
+   sudo ln -s /var/lib/snapd/snap /snap                                                                                install code --classic     
+
+REMOVENDO visual studio code
+   yay -Rns visual-studio-code-bin
+
+CRIANDO PARTicao e colocando windows
+blkid
+mkdir /home/ysneshy/window
+
+
+
+   sudo nano /etc/fstab  
+ 
+grub
+comando para ver particoes
+   sudo parted -l
+   sudo nano /etc/default/grub
+   sudo update-grub
+
+key wakatime
+    waka_ba1729bc-d216-4fab-a9b0-17ae66170d2e
+
+download nvidia
+sudo mhwd -a pci nonfree 0300  
+
+-- comando vs code
+
+   ysneshy token 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
+   chave: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINj1g7Q55ozeyrAWCzexTaDHVuYDHd+yUx3zxxeXJCOS ysneshy@hotmail.com
+   npm run dev
+   git add .
+   git commit -m ":bug: first commit" 
+   git push -u origin main
+
+instalacao gimp
+
+   sudo pacman -S snapd
+
+   sudo systemctl enable --now snapd.socket
+
+   sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install gimp
+
+grava a tela do linux 
+
+sudo pacman -S simplescreenrecorder
+
+compressor de video pra zap
+
+sudo pacman -S simplescreenrecorder
+
+REMOVE ATE A ALMA DO PACOTE CUIDADO
+
+sudo pacman -Rscn PACOTE
+
+ yay -S google-drive-ocamlfuse
+   sudo fc-cache -vf          *atualiza fontes
+   sudo pacman -S pacote      * instala programas
+   sudo pacman -Ql pacote     *mostra onde foram instalados
+
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+   sudo pacman -S npm
+   sudo pacman -S yarn
+   sudo npm install @angular/cli -g
+   sudo npm i -g @quasar/cli
+   sudo npm install -g @vue/cli
+   yarn global add @vue/cli
+   yarn global upgrade --latest @vue/cli
+
+   npm init -y
+   asdf plugin-add nodejs
+   asdf install nodejs 18.10.0
+   asdf global nodejs 18.10.0
+   npm install -g create-react-app
+   npm init @eslint/config
+   1-create react-app
+   create-react-app meu-app
+   npm list -g
+   npm install -g firebase-tools
+   asdf install nodejs 18.10.0
+   asdf global nodejs 18.10.0
+
+
+   npm update -g @vue/cli
+
+
+criando next-app
+
+   npm init next-app
+
+https://linuxavante.com/2-ferramentas-para-monitorar-gpus-nvidia-no-linux-gui-e-linha-de-comando
+
+ao instala asdf instalador colocar
+ comando . $HOME/.asdf/asdf.sh  dentro do
+ ~/.zshrc
+
+   git add . && git commit -m "upgrade" &&  git push -u origin main
+
+ problema de som nao inicia instalar--> pavucontrol
+
+alt + f2    gnome-tweaks     muda themas
+
+./convert.lua /home/tron/conkyrc
+
+programas
+
+   sudo pacman -S make
+   sudo pacman -S --needed base-devel
+   sudo pacman -S kate
+   sudo pacman -Sy gcc
+   sudo pacman -S neofech
+   sudo pacman -S conky curl feh lm_sensors
+   sudo pacman -Syu audacious
+   sudo snap install telegram-desktop
+
+procurar repositorio AUR conky-colors-git
+
+   yay conky-colors-git
+   git clone https://aur.archlinux.org/yay.git
+   sudo pacman -S yay
+   yay debtap
+   sudo debtap -u google-chrome-stable_current_amd64.deb
+   yay google-chrome
+   ip cddr
+   iwconfig
+   ipconfig
+   lspci
+   neofetch    mostra distro
+
+debtap converte instalar deb em instalador manjaro e instala programa
+
+instalando ffmpeg
+
+sudo pacman -S snapd
+
+sudo systemctl enable --now snapd.socket
+
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install ffmpeg
+
+   ffmpeg -i /home/ysneshy/zumbi2.mkv -c:v mpeg4 -q:v 3 -tag:v xvid -c:a libmp3lame -q:a 4 /home/ysneshy/zumbilandia3.avi
+ 
+ ffmpeg -i input.mp4 output.avi
+
+converte mkv em em mp3
+
+   ffmpeg -i  '/home/tron/Músicas/a-ha - Take On Me.mp4' marcelo_gay.mp3  
+
+
+   sudo pacman -S youtube-dl
+
+Para baixar o video usaremos o seguinte comando: coloque '   ' no endereço
+
+   youtube-dl https://www.youtube.com/watch?v=T3PBWb_m2jA
+
+O video a ser baixado ficará no formato .mp4 e na pasta HOME
+
+Para baixar somente o áudio usaremos o seguinte comando:
+
+   youtube-dl -f 18  'https://www.youtube.com/watch?v=Y0JepxudChw&list=RDY0JepxudChw&start_radio=1'
+
+   youtube-dl -x https://www.youtube.com/watch?v=T3PBWb_m2jA
+
+O áudio a ser baixado ficará no formato .m4a e na pasta Home. Caso queira baixar o áudio em mp3 use o comando abaixo:
+
+   youtube-dl -x –audio-format mp3 https://www.youtube.com/watch?v=T3PBWb_m2jA
+
+config conky 
+
+   conky -c ~/.777/conkyrct0
+ 
+sensores conky
+
+   sudo pacman -S conky curl feh lm_sensors
+
+ ver dados de particoes
+
+   /bin/ls -lF /dev/disk/by-uuid/
+
+   df -l
+
+ listando uiid dos hds
+
+   ls -lh /dev/disk/by-uuid/* | sed "s/^.*\/dev\/.*\/by-uuid\/\(.*\) -> .*\/\([^\/]*\)/\/dev\/\2 -> \1/g"
+
+   blkid
+
+
+ comando nvidia
+ 
+   sudo pacman -S nvtop
+
+   nvidia-smi --format=csv,noheader,nounits --loop-ms=1000 --query-gpu=timestamp,utilization.gpu,utilization.memory,memory.used,fan.speed
+ 
+
